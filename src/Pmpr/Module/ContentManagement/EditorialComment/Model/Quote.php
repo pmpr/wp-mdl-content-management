@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6843ea8a9db71             |
+    |             6843efc65ced4             |
     |_______________________________________|
 */
  namespace Pmpr\Module\ContentManagement\EditorialComment\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Common\Foundation\ORM\Model; class Quote extends Model { const yscumwokauuisuuc = 'end_offset'; const wwuiqqqssswgmyqc = 'start_offset'; public function register() { $this->saemoowcasogykak(IconInterface::gomeiggasmeuqgqs)->guiaswksukmgageq(__('Quote', PR__MDL__CONTENT_MANAGEMENT))->muuwuqssqkaieqge(__('Quotes', PR__MDL__CONTENT_MANAGEMENT)); } public function uwmqacgewuauagai() { $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $this->cquokmemekqqywgi($eqwoegegiamegqsm->gysoeyaguiyewoes(Constants::TEXT)->gswweykyogmsyawy(__('Text', PR__MDL__CONTENT_MANAGEMENT)))->cquokmemekqqywgi($eqwoegegiamegqsm->qoemykoeuecmsmwe(self::wwuiqqqssswgmyqc)->acceqyqygswoecwe(10)->gswweykyogmsyawy(__('Start Offset', PR__MDL__CONTENT_MANAGEMENT)))->cquokmemekqqywgi($eqwoegegiamegqsm->qoemykoeuecmsmwe(self::yscumwokauuisuuc)->acceqyqygswoecwe(10)->gswweykyogmsyawy(__('End Offset', PR__MDL__CONTENT_MANAGEMENT)))->cquokmemekqqywgi($eqwoegegiamegqsm->eoaomaokwkwqyqiq(Constants::wwcyusosayomgoia)->gswweykyogmsyawy(__('Comment', PR__MDL__CONTENT_MANAGEMENT))->geimymogiqyssawi(Comment::class)->kqyscuayyakmwaky()->wakqsiacyacmumuw()); parent::uwmqacgewuauagai(); } }

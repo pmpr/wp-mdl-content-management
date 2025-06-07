@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Contact\n"
-"POT-Creation-Date: 2025-06-06 05:28+0330\n"
-"PO-Revision-Date: 2025-06-06 05:29+0330\n"
+"POT-Creation-Date: 2025-06-07 11:10+0330\n"
+"PO-Revision-Date: 2025-06-07 11:10+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -49,7 +49,7 @@ msgid "Sorry, this comment not removable anymore."
 msgstr "متاسفانه این دیدگاه، دیگر قابل حذف نیست."
 
 #: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:185
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:93
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:94
 msgid "Comment deleted successfully."
 msgstr "دیدگاه با موفقیت حذف شد."
 
@@ -72,50 +72,50 @@ msgstr ""
 msgid "Editorial Comments"
 msgstr "دیدگاه‌های ویراستاری"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:59
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:60
 msgid "Load More"
 msgstr "بارگیری بیشتر"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:60
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:61
 #: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:49
 #: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:21
 msgid "Quote"
 msgstr "نقل قول"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:62
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:63
 msgid "There is no comment yet."
 msgstr "هنوز دیدگاهی ثبت نشده است."
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:64
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:65
 msgid "Write Something"
 msgstr "چیزی بنویسید"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:65
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:66
 msgid "Send Comment"
 msgstr "ارسال دیدگاه"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:84
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:85
 msgid "Editing Comment"
 msgstr "در حال ویرایش دیدگاه"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:85
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:86
 #, php-format
 msgid "Replying to %s"
 msgstr "در حال پاسخ به %s"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:86
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:87
 msgid "Inserting quote"
 msgstr "در حال درج نقل قول"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:87
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:88
 msgid "Insert selected text as a quote in editorial comments"
 msgstr "درج متن به‌صورت نقل‌قول در دیدگاه‌های ویراستاری"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:90
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:91
 msgid "Empty Text"
 msgstr "متن خالی"
 
-#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:94
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:95
 msgid "Text can not be empty."
 msgstr "متن نمی‌تواند خالی باشد."
 
