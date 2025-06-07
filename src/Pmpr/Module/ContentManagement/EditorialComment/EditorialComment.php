@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6844600a48a68             |
+    |             684470e8ef798             |
     |_______________________________________|
 */
  namespace Pmpr\Module\ContentManagement\EditorialComment; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\ContentManagement\Container; use Pmpr\Module\ContentManagement\EditorialComment\Model\Comment; use Pmpr\Module\ContentManagement\EditorialComment\Model\Flag; class EditorialComment extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu('admin_head-edit.php', [$this, 'auiagqmymgqukauc'])->qcsmikeggeemccuu('load-post.php', [$this, 'eakamcqwssckiwcu'])->qcsmikeggeemccuu('manage_posts_custom_column', [$this, 'aqwsuqueaeyaemci'], 999, 2); } public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse('manage_posts_columns', [$this, 'wakeowsaugqcigyg']); } public function mameiwsayuyquoeq() { MetaBox::symcgieuakksimmu(); if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq(Ajax::PREFIX)) { Ajax::symcgieuakksimmu(); } } public function auiagqmymgqukauc() { ?>
