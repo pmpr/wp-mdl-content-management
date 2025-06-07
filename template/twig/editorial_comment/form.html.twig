@@ -1,0 +1,39 @@
+<div class="editorial-comment-form">
+
+    <div class="editorial-comment-action-placeholder">
+        <div class="editorial-comment-action-wrapper">
+            <div class="editorial-comment-action-content">
+                <strong class="editorial-comment-action-label"></strong>
+                <div class="editorial-comment-action-text"></div>
+            </div>
+            {{ render_icon(quote_remove_icon, {class: 'icon-md icon-primary as-link editorial-comment-action-clear'}) }}
+        </div>
+    </div>
+
+    <textarea
+            class="pr-custom-scrollbar"
+            id="editorial_comment_content_input"
+            name="editorial_comment_content_input"
+            placeholder="{{ form_input_placeholder|esc_attr }}"
+    ></textarea>
+
+    <input type="hidden" id="editorial_comment_id" name="editorial_comment_id" value="0">
+    <input type="hidden" id="editorial_comment_reply_id" name="editorial_comment_reply_id" value="0">
+    <input type="hidden" id="editorial_comment_post_id" name="editorial_comment_post_id" value="{{ post_id|esc_attr }}">
+    <input type="hidden" id="editorial_comment_quote_text" name="editorial_comment_quote_text">
+    <input type="hidden" id="editorial_comment_quote_start_offset" name="editorial_comment_quote_start_offset">
+    <input type="hidden" id="editorial_comment_quote_end_offset" name="editorial_comment_quote_end_offset">
+
+    <div class="editorial-comment-form-actions">
+        <div class="aside-actions">
+
+        </div>
+        <div class="main-actions">
+            <button type="button" role="button"
+                    id="edirotial_comment_submit_action"
+                    class="pr-btn btn-primary disabled" disabled>
+                {{ form_submit_action_text|raw }}
+            </button>
+        </div>
+    </div>
+</div>

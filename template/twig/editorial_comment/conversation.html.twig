@@ -1,0 +1,22 @@
+<div class="pr-editorial-comment-container">
+    <div class="pr-editorial-comment-list pr-custom-scrollbar">
+        {% if comments is not empty %}
+            {% if has_more %}
+                <div class="pr-editorial-comment-load-more-wrapper">
+                    <button type="button" class="pr-btn btn-primary pr-editorial-comment-load-more">
+                        {{ load_more_text|raw }}
+                    </button>
+                </div>
+            {% endif %}
+            <div class="pr-editorial-comment-items">
+                {% for comment in comments %}
+                    {% include get_template('comment', _self) with comment %}
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="pr-editorial-comment-empty">{{ empty_message|raw }}</div>
+        {% endif %}
+    </div>
+    {% include get_template('form', _self) %}
+</div>
+

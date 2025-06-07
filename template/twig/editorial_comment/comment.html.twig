@@ -1,0 +1,41 @@
+{% set isOwner = current_user_id == comment.user_id %}
+<div class="pr-editorial-comment-item{% if isOwner %} me{% else %} other{% endif %}" id="editorial_comment_{{ comment.id|esc_attr }}">
+    <div class="pr-comment-content">
+        <img src="{{ render_user_data('avatar_url', comment.user_id)|esc_attr }}" alt="logo"
+             class="pr-comment-avatar" width="55" height="55">
+        <div class="pr-comment-text-wrapper">
+            {% if comment.quote is not empty %}
+                <div class="pr-comment-quote"
+                     data-start-offset="{{ comment.quote.start_offset|esc_attr }}"
+                     data-end-offset="{{ comment.quote.end_offset|esc_attr }}">
+                    {{ comment.quote.text|raw }}
+                </div>
+            {% endif %}
+            {% if comment.reply is not empty %}
+                <div class="pr-comment-reply">
+                    <strong class="pr-comment-reply-label">{{ comment.reply_label|raw }}</strong>
+                    <div>{{ comment.reply.text|raw }}</div>
+                </div>
+            {% endif %}
+            <div class="pr-comment-text">{{ wpautop(comment.text)|raw }}</div>
+        </div>
+    </div>
+    <div class="pr-comment-footer">
+        <div class="pr-comment-metadata">
+            <span class="pr-comment-user">{{ render_user_data('name', comment.user_id)|raw }}</span>
+            <time class="pr-comment-datetime" datetime="{{ comment.created_at|esc_attr }}">
+                {{ comment.created_at|datetime(comment_datetime_format)|raw }}
+            </time>
+        </div>
+        {% if comment.actions is not empty %}
+            <div class="pr-comment-actions">
+                {% for action in comment.actions %}
+                    {{ action|raw }}
+                    {% if not loop.last %}
+                        <span class="pr-comment-action-separator">|</span>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>

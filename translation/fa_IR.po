@@ -1,0 +1,544 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Contact\n"
+"POT-Creation-Date: 2025-06-06 05:28+0330\n"
+"PO-Revision-Date: 2025-06-06 05:29+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/ContentManagement/ContentManagement.php:24
+msgid "Contact"
+msgstr "ارتباط با ما"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:85
+msgid "You are try to submit a comment with a quote, but quote data not valid."
+msgstr ""
+"شما در حال تلاش برای گذاشتن دیدگاه همراه باد نقل قول هستید، اما داده‌های "
+"مربوط به نقل قول معتبر نیستند."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:95
+msgid "Sorry, you don’t have the required permissions to change this comment."
+msgstr "متاسفانه شما دسترسی لازم برای ایجاد تغییر روی این دیدگاه را ندارید."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:97
+msgid "Sorry, this comment not editable anymore."
+msgstr "متاسفانه این دیدگاه، دیگر قابل ویرایش نیست."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:172
+msgid "Sorry, you don’t have the required permissions to delete this comment."
+msgstr "متاسفانه شما دسترسی لازم برای حذف این دیدگاه را ندارید."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:174
+msgid "Sorry, this comment not removable anymore."
+msgstr "متاسفانه این دیدگاه، دیگر قابل حذف نیست."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:185
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:93
+msgid "Comment deleted successfully."
+msgstr "دیدگاه با موفقیت حذف شد."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:190
+msgid "Sorry, you don’t have the required permissions to do this."
+msgstr "متاسفانه شما دسترسی لازم برای انجام این کار را ندارید."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:195
+msgid "Comment not found."
+msgstr "دیدگاه یافت نشد."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Ajax.php:224
+msgid ""
+"Sorry, you don’t have the required permissions to add an editorial comment "
+"on this post."
+msgstr ""
+"متاسفانه شما دسترسی لازم برای گذاشتن دیدگاه بر روی این نوشته را ندارید."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:44
+msgid "Editorial Comments"
+msgstr "دیدگاه‌های ویراستاری"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:59
+msgid "Load More"
+msgstr "بارگیری بیشتر"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:60
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:49
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:21
+msgid "Quote"
+msgstr "نقل قول"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:62
+msgid "There is no comment yet."
+msgstr "هنوز دیدگاهی ثبت نشده است."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:64
+msgid "Write Something"
+msgstr "چیزی بنویسید"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:65
+msgid "Send Comment"
+msgstr "ارسال دیدگاه"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:84
+msgid "Editing Comment"
+msgstr "در حال ویرایش دیدگاه"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:85
+#, php-format
+msgid "Replying to %s"
+msgstr "در حال پاسخ به %s"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:86
+msgid "Inserting quote"
+msgstr "در حال درج نقل قول"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:87
+msgid "Insert selected text as a quote in editorial comments"
+msgstr "درج متن به‌صورت نقل‌قول در دیدگاه‌های ویراستاری"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:90
+msgid "Empty Text"
+msgstr "متن خالی"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/MetaBox.php:94
+msgid "Text can not be empty."
+msgstr "متن نمی‌تواند خالی باشد."
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:21
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:44
+msgid "Comment"
+msgstr "دیدگاه‌"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:22
+msgid "Comments"
+msgstr "دیدگاه‌‌ها"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:32
+msgid "User"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:36
+msgid "Post"
+msgstr "نوشته‌"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:40
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:32
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:44
+msgid "Reply Comment"
+msgstr "پاسخ به دیدگاه"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:54
+msgid "Created At"
+msgstr "تاریخ ثبت"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:58
+msgid "Updated At"
+msgstr "تاریخ به روزرسانی"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:127
+#, php-format
+msgid "Replied to %s"
+msgstr "در پاسخ به %s"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:195
+msgid "Reply"
+msgstr "پاسخ"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:196
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:197
+msgid "Delete"
+msgstr "حذف"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:232
+msgid "Delete Comment"
+msgstr "حذف دیدگاه"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:234
+msgid ""
+"Are you sure you want to delete this comment? This action cannot be undone!"
+msgstr ""
+"آیا مطمئن هستید که می‌خواهید این دیدگاه را حذف کنید؟ این اقدام قابل بازگشت "
+"نیست!"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Comment.php:237
+msgid "Yes, delete it!"
+msgstr "بله ، حذف شود!"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:22
+msgid "Quotes"
+msgstr "نقل قول‌ها"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:36
+msgid "Start Offset"
+msgstr "کلمه ابتدایی"
+
+#: src/Pmpr/Module/ContentManagement/EditorialComment/Model/Quote.php:40
+msgid "End Offset"
+msgstr "کلمه پایانی"
+
+#: src/Pmpr/Module/ContentManagement/Setting/Setting.php:18
+msgid "Content Management Setting"
+msgstr "تنظیمات مدیریت محتوا"
+
+#: src/Pmpr/Module/ContentManagement/Setting/Setting.php:19
+msgid "Setting"
+msgstr "تنظیمات"
+
+#~ msgid "Use as Quote"
+#~ msgstr "استفاده به عنوان نقل قول"
+
+#~ msgid "Add Quote"
+#~ msgstr "افزودن نقل قول"
+
+#~ msgid "Comment added successfully."
+#~ msgstr "دیدگاه با موفقیت اضافه شد."
+
+#~ msgid "Response"
+#~ msgstr "پاسخ"
+
+#~ msgid "Responses"
+#~ msgstr "پاسخ‌ها"
+
+#~ msgid "Message"
+#~ msgstr "پیام"
+
+#~ msgid "Submission"
+#~ msgstr "پیام‌"
+
+#~ msgid "Submissions"
+#~ msgstr "پیام‌ها"
+
+#~ msgid "Subject"
+#~ msgstr "موضوع"
+
+#~ msgid "IP"
+#~ msgstr "آی پی"
+
+#~ msgid "Owner"
+#~ msgstr "صاحب"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"
+
+#~ msgid "Website"
+#~ msgstr "وب سایت"
+
+#, php-format
+#~ msgid "Your %s is not valid."
+#~ msgstr "%s شما معتبر نیست."
+
+#~ msgid "Please specify owner."
+#~ msgstr "لطفا مالک را مشخص کنید."
+
+#, php-format
+#~ msgid "Please enter at least %s characters for %s."
+#~ msgstr "لطفا حداقل %s کاراکتر برای %s وارد کنید."
+
+#, php-format
+#~ msgid "Please enter a valid %s."
+#~ msgstr "لطفا یک %s معتبر وارد کنید."
+
+#, php-format
+#~ msgid "Please fill %s."
+#~ msgstr "لطفا فیلد %s را پر کنید."
+
+#~ msgid ""
+#~ "Sorry, you send a Message few minutes before, please try again letter."
+#~ msgstr ""
+#~ "با عرض پوزش، شما کمتر از چند دقیقه پیش پیامی ارسال کرده‌اید، لطفا بعدا "
+#~ "دوباره تلاش کنید."
+
+#~ msgid "Your request is not valid. refresh page an try again"
+#~ msgstr "درخواست شما معتبر نیست، لطفا صفحه را رفرش کرده و مجدد امتحان کنید"
+
+#~ msgid "Your Message"
+#~ msgstr "پیام شما"
+
+#~ msgid "Submit"
+#~ msgstr "تایید"
+
+#, php-format
+#~ msgid "Logged in as %s."
+#~ msgstr "با عنوان %s وارد شده‌اید."
+
+#~ msgid "Log out?"
+#~ msgstr "خارج می‌شوید؟"
+
+#~ msgid "Send Message"
+#~ msgstr "ارسال پیام"
+
+#~ msgid "Contact form"
+#~ msgstr "فرم تماس"
+
+#~ msgid "Enable Recaptcha"
+#~ msgstr "فعال سازی ری‌کپچا"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "General Configuration"
+#~ msgstr "پیکربندی عمومی"
+
+#~ msgid "Page Configuration"
+#~ msgstr "پیکربندی صفحه"
+
+#~ msgid "Contact Page"
+#~ msgstr "صفحه تماس"
+
+#~ msgid "Messages"
+#~ msgstr "پیام‌ها"
+
+#~ msgid "Send Message Time Limit"
+#~ msgstr "محدودیت زمانی ارسال پیام"
+
+#~ msgid "Time limit for the user to resubmit a new message."
+#~ msgstr "تعیین محدودیت زمانی ارسال دوباره پیام جدید توسط کاربر."
+
+#~ msgid "Thanks Message"
+#~ msgstr "پیام تشکر"
+
+#~ msgid "Displayed to user after successful form submission."
+#~ msgstr "پس از ارسال موفق پیام، به کاربر نمایش داده می‌شود."
+
+#~ msgid "Thank you! You will receive a response as soon as possible."
+#~ msgstr "متشکرم، در کمترین زمان ممکن پاسخ ما را دریافت خواهید کرد."
+
+#~ msgid "Reply Message"
+#~ msgstr "پاسخ پیام"
+
+#~ msgid ""
+#~ "Sent back to sender as reply message after form submission throw "
+#~ "confirmation email."
+#~ msgstr "پاسخ پیام کاربرکه از طریق ایمیل ارسال می‌شود."
+
+#~ msgid "Limitation Message"
+#~ msgstr "پیام محدودیت زمانی"
+
+#~ msgid "Displayed to user if already sent a message."
+#~ msgstr ""
+#~ "در صورتی که کاربر قبل از اتمام محدودیت زمانی، پیام جدیدی را ارسال کند، "
+#~ "نمایش داده می‌شود."
+
+#, php-format
+#~ msgid "Sorry, you send a Message less than %s ago, please try letter."
+#~ msgstr ""
+#~ "شما کمتر از %s  پیش یک پیام ارسال کرده‌اید، لطفا بعدا دوباره تلاش کنید."
+
+#~ msgid "Time Limit"
+#~ msgstr "محدودیت زمانی ارسال پیام"
+
+#~ msgid "Information"
+#~ msgstr "اطلاعات"
+
+#~ msgid "Contact & Social Data"
+#~ msgstr "اطلاعات تماس و شبکه‌های اجتماعی"
+
+#~ msgid "Communication Information"
+#~ msgstr "اطلاعات تماس"
+
+#~ msgid "Contact Info"
+#~ msgstr "اطلاعات تماس"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Subtext"
+#~ msgstr "زیر متن"
+
+#~ msgid "Info Value"
+#~ msgstr "مقدار"
+
+#~ msgid "Icon"
+#~ msgstr "آیکون"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "Hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "Location"
+#~ msgstr "مکان"
+
+#~ msgid "Other"
+#~ msgstr "سایر"
+
+#~ msgid "Social Media Information"
+#~ msgstr "اطلاعات شبکه‌های اجتماعی"
+
+#~ msgid "Social"
+#~ msgstr "شبکه‌های اجتماعی"
+
+#~ msgid "Link"
+#~ msgstr "پیوند"
+
+#~ msgid "Map & Direction Data"
+#~ msgstr "اطلاعات نقشه و مسیریابی"
+
+#~ msgid "Map"
+#~ msgstr "نقشه"
+
+#~ msgid "Markup"
+#~ msgstr "مارکاپ"
+
+#, php-format
+#~ msgid ""
+#~ "Go to %s, find and click your location, choose share from sidebar and on "
+#~ "Embed a map click COPY HTML and paste here."
+#~ msgstr ""
+#~ "به %s بروید، مکان مورد نظر خود را یافته و کلیک کنید، از سایدبار گزینه "
+#~ "اشتراک را انتخاب کرده و در تب Embed روی کپی اچ تی ام ال کلیک کنید و در "
+#~ "این باکس جایگذاری کنید."
+
+#~ msgid "Google Map"
+#~ msgstr "نقشه گوگل"
+
+#~ msgid "Height"
+#~ msgstr "ارتفاع"
+
+#, php-format
+#~ msgid "Height of map in footer (min = %s, max = %s)."
+#~ msgstr "ارتفاع نقشه (‌کمترین = %s، بیشترین =%s )."
+
+#~ msgid "Address"
+#~ msgstr "آدرس"
+
+#~ msgid "Direction"
+#~ msgstr "مسیریابی"
+
+#~ msgid "Items"
+#~ msgstr "آیتم‌ها"
+
+#~ msgid "Google Map Location"
+#~ msgstr "نقشه مکانی گوگل مپ"
+
+#~ msgid "Display the direction links."
+#~ msgstr "نمایش لینک‌های مسیریابی."
+
+#~ msgid "Include"
+#~ msgstr "شامل"
+
+#~ msgid "Leave empty if you want to show all items."
+#~ msgstr ""
+#~ "اگر می‌خواهید تمامی آیتم‌های موجود نمایش داده شود،‌لطفا این فیلد را خالی "
+#~ "بگذارید."
+
+#~ msgid "Icon Size"
+#~ msgstr "اندازه آیکون"
+
+#~ msgid "Contact Information"
+#~ msgstr "اطلاعات تماس"
+
+#~ msgid "Display the contact information."
+#~ msgstr "نمایش  اطلاعات تماس."
+
+#~ msgid "Single Show"
+#~ msgstr "نمایش تکی"
+
+#~ msgid "Show Icon"
+#~ msgstr "نمایش آیکون"
+
+#~ msgid "Display the map."
+#~ msgstr "نمایش نقشه."
+
+#~ msgid "Social Items"
+#~ msgstr "شبکه‌های اجتماعی"
+
+#~ msgid "Display the social items."
+#~ msgstr "نمایش شبکه‌های اجتماعی."
+
+#~ msgid "Preview"
+#~ msgstr "پیش‌نمایش"
+
+#~ msgid "Location preview on Google Maps"
+#~ msgstr "پیش‌نمایش نقشه گوگل"
+
+#~ msgid "Url"
+#~ msgstr "پیوند"
+
+#~ msgid "Social Networks"
+#~ msgstr "شبکه‌های اجتماعی"
+
+#~ msgid "Priority"
+#~ msgstr "اولویت"
+
+#~ msgid "Working Days"
+#~ msgstr "روز‌های کاری"
+
+#~ msgid "Working Hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "Check this item to enable contact form functionality."
+#~ msgstr "با علامت زدن این گزینه، عملکرد فرم ارتباط با ما فعال می‌شود."
+
+#~ msgid "IP Collection"
+#~ msgstr "نگه‌داری آی پی"
+
+#~ msgid "Check this item to enable collection of ip addresses."
+#~ msgstr "با علامت زدن این گزینه، آی پی کاربران ذخیره خواهد شد."
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "Enable Contact Information"
+#~ msgstr "فعال سازی اطلاعات تماس"
+
+#~ msgid "Check this item to show contact information on front"
+#~ msgstr "برای نمایش اطلاعات تماس در سایت این گزینه‌را علامت بزنید"
+
+#~ msgid "Enable Opening Hours"
+#~ msgstr "فعال کردن بخش ساعات کاری"
+
+#~ msgid "Working days"
+#~ msgstr "روز‌های کاری"
+
+#~ msgid "Opening Hours"
+#~ msgstr "ساعات کاری"
+
+#~ msgid "Check this item to show location on front."
+#~ msgstr ""
+#~ "با علامت زدن این گزینه، اطلاعات مکانی در بخش نمایشی سایت نمایش داده خواهد "
+#~ "شد."
+
+#~ msgid "Waze Direction"
+#~ msgstr "مسیریابی ویز"
+
+#~ msgid "Email Address"
+#~ msgstr "پست الکترونیکی"
+
+#~ msgid "Phone Number"
+#~ msgstr "شماره تماس"
+
+#~ msgid "Show in Header"
+#~ msgstr "نمایش در سر تیتر سایت"
+
+#~ msgid "Show in Footer"
+#~ msgstr "نمایش در پاورقی"
+
